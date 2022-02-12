@@ -1,0 +1,12 @@
+Stego:
+GIMP
+https://hex-works.com/eng
+https://www.pelock.com/products/steganography-online-codec
+https://stegonline.georgeom.net/
+Crypto:
+https://www.dcode.fr/en
+https://wiremask.eu/tools/xor-cracker/
+RE:
+Cutter
+Ghidra
+IDA Free
