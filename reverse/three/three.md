@@ -1,32 +1,18 @@
----
-aliases: []
-Tags: []
----
-``````ad-success
-title: # #h/lime ==three==
-#h/lime ==date: 2022-02-03==
-#h/lime ==time: 15:54==
-----
-Status:
-Key concepts:
-answ: 
-![[Pasted image 20220203205947.png]]
-зі значення `param_2 +8/16/24` можемо припустити що на вхід мають бути три аргкменти максимальної довжини в 4 символи (з термінатором в кінці) 
+![](./images/1.png)
+from `param_2 +8/16/24` we can decude that there should be 3 arguments containing 3 chars + `\0` 
 
-![[Pasted image 20220203205627.png]]
+![](./images/2.png)
 
-цикл записує введену строку в int, букви фільтруються
+cycle to turn string to number
 
-![[Pasted image 20220203205617.png]]
+![](./images/3.png)
 
-Набір логічних та арифметичних операцій, які можна предствати у вигляді двох СЛР.
-![[Pasted image 20220203205749.png]]
+set of operations, from which we can get two systems of linear equations
+![](./images/4.png)
+![](./images/5.png)
+![](./images/6.png)
 
-![[Pasted image 20220203205850.png]]
-![[Pasted image 20220203205900.png]]
-
-розв'язавши їх отримуємо два набори аргементів на які програма відповідає `Well done!`. Переводимо їх в символи:
-
+```python
 In [24]: chr(112)
 Out[24]: 'p'
 
@@ -44,15 +30,6 @@ Out[28]: 'l'
 
 In [29]: chr(51)
 Out[29]: '3'
+```
 
 flag: CTF_FLAG{purpl3}
----
-``````
-
----
-```ad-example
-title: ## #h/white _References_
-color: 200,200,200
-collapse: open
-```
-- 

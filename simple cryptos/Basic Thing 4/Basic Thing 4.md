@@ -1,15 +1,4 @@
----
-aliases: []
-Tags: []
----
-``````ad-success
-title: # #h/lime ==Basic Thing 4==
-#h/lime ==date: 2022-01-28==
-#h/lime ==time: 10:17==
-----
-Status:
-Key concepts:
-answ: 
+# Xor 2 letter of hen with 2 letters of egg
 
 ```python
 In [1]: HEN = b'mFhMh^oUU\APAVWMe|Ae}MzznfS'
@@ -40,13 +29,4 @@ In [28]: for i, item in enumerate(HEN):
 ```
 
 flag: CTF_FLAG{NoBoDy_KnowS_Th@t}
----
-``````
-
----
-```ad-example
-title: ## #h/white _References_
-color: 200,200,200
-collapse: open
-```
 

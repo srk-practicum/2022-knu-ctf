@@ -1,0 +1,3 @@
+![](./images/BASIC_3.png)
+
+flag CTF_FLAG{THIS_PUZZLE_CANNOT_BE_SOLVED}

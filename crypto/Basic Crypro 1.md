@@ -1,15 +1,5 @@
----
-aliases: []
-Tags: []
----
-``````ad-success
-title: # #h/lime ==Basic Crypro 1==
-#h/lime ==date: 2022-01-28==
-#h/lime ==time: 10:49==
-----
-Status:
-Key concepts:
-answ: 
+# Classical Caesar cipher
+ 
 ```python
 a = 'MablBlGhmVetllbvteVtxltkVbiaxk'
 import string
@@ -50,13 +40,3 @@ CTF_FLAG{LzakAkFglUdskkausdUswksjUahzwj}
 ```
 
 flag: CTF_FLAG{ThisIsNotClassicalCaesarCipher}
----
-``````
-
----
-```ad-example
-title: ## #h/white _References_
-color: 200,200,200
-collapse: open
-```
-- 

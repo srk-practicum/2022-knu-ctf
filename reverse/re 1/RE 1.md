@@ -1,27 +1,14 @@
----
-aliases: []
-Tags: []
----
-``````ad-success
-title: # #h/lime ==RE 1==
-#h/lime ==date: 2022-02-05==
-#h/lime ==time: 14:50==
-----
-Status:
-Key concepts:
-answ: 
+# the idea was to find two strings: one containing resulting values of the opereation over the input data, and the other containing info which function should be used on the byte at a stecific index knowing those two strings, and the exact length (`0x17`) of the input string we can easily recreate the flag.
+![](./images/1.png)
 
-the idea was to find two strings: one containing resulting values of the opereation over the input data, and the other containing info which function should be used on the byte at a stecific index
-
-knowing that two strings, and the exact length (`0x17`) of the input strnig we can easily recreate the flag
-
-![[Pasted image 20220205150312.png]]
-# length ![[Pasted image 20220205150604.png]]
+# length 
+![](./images/2.png)
 
 # commands
-![[Pasted image 20220205150340.png]]
+![](./images/3.png)
+
 # resulting value
-![[Pasted image 20220205150646.png]]
+![](./images/4.png)
 
 
 ```python
@@ -112,19 +99,6 @@ for x in range(0,0x17):
         if ~(i + 0x2a) & 0xff == edi[x] and (x == 6 or x == 9 or x == 19 or x == 21): #edi
             print(chr(i), end = "")
             break
-
-
-
 ```
 
 flag: CTF_FLAG{w3_@r3_v1rtu@l_m@ch1n35}
----
-``````
-
----
-```ad-example
-title: ## #h/white _References_
-color: 200,200,200
-collapse: open
-```
-- 

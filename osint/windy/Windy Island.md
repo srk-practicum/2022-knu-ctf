@@ -1,31 +1,25 @@
----
-aliases: []
-Tags: []
----
-``````ad-success
-title: # #h/lime ==Windy Island==
-#h/lime ==date: 2022-02-04==
-#h/lime ==time: 14:48==
-----
-Status:
-Key concepts:
-answ:
-```
 The islands with the cool wind and a dozen sheep - Faroe Islands.  
 And the place is Zarepta (Vatnsoyrar, Faroe Islands)
-```
-![[Pasted image 20220204144854.png]]
-![[Pasted image 20220204144903.png]]
-![[Pasted image 20220204144834.png]]
-![[Pasted image 20220204144817.png]]
-flag:
----
-``````
+![](./images/1.png)
 
----
-```ad-example
-title: ## #h/white _References_
-color: 200,200,200
-collapse: open
-```
-- 
+Task's picure can be found on the internet via Bing image search.
+![](./images/2.png)
+
+
+The initial task was on the site which is no longer available, but we can recover it from Yandex cache.
+
+![](./images/3.png)
+
+![](./images/4.png)
+
+
+The other way of solving in Sherlock Holmes style:
+![](./images/1.png)
+on the original pic we can see letters "arepta"
+![](./images/arepta.png)
+so the most probable fist letter is "s"
+![](./images/sarepta.png)
+Sarepta is a biblical city Zarephath. Considering this fact and the payground in the foreground we can suggets it to be some sort of a camp for christian children. S becomes Z, and we have found our target.
+![](./images/4.png)
+
+flag: CTF_FLAG{Zarepta_Vatssoyrar}

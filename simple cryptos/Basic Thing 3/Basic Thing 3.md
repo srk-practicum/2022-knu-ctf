@@ -1,15 +1,4 @@
----
-aliases: []
-Tags: []
----
-``````ad-success
-title: # #h/lime ==Basic Thing 3==
-#h/lime ==date: 2022-01-28==
-#h/lime ==time: 10:23==
-----
-Status:
-Key concepts:
-answ: 
+# from ints to chars, from chars rot13 to flag 
 ```python
 data = '82 64 112 85 95 89 114 103 103 114 69 95 85 64 70 95 48 74 97 95 65 104 122 79 51 69'
 data = [int(x) for x in data.split(' ')]
@@ -53,14 +42,5 @@ CTF_FLAG{O@mR_VoddoB_R@C_0Gx_XewL3B}
 CTF_FLAG{P@nS_WpeepC_S@D_0Hy_YfxM3C}
 CTF_FLAG{Q@oT_XqffqD_T@E_0Iz_ZgyN3D}
 ```
-flag: CTF_FLAG{E@cH_LetteR_H@S_0Wn_NumB3R}
----
-``````
 
----
-```ad-example
-title: ## #h/white _References_
-color: 200,200,200
-collapse: open
-```
-- 
+flag: CTF_FLAG{E@cH_LetteR_H@S_0Wn_NumB3R}
